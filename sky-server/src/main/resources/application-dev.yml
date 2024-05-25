@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5tGUMzFwqjwhM5kE6sm7
     access-key-secret: gsK842Z60IL0LJ0wHPTtuzsVJWBNv3
     bucket-name: dqyweb-sky
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 1
