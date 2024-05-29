@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @Slf4j
 public class OssConfiguration {
-    @Bean // 程序启动，自动调用该方法(创建ALiOssUtil 对象)
+    @Bean // 程序启动，自动调用该方法(创建 ALiOssUtil 对象)
     @ConditionalOnMissingBean // 表示只能创建一个对象
     public AliOssUtil aliOssUtil(AliOssProperties aliOssProperties){
         log.info("开始创建阿里云文件上传工具类对象:{}",aliOssProperties);
